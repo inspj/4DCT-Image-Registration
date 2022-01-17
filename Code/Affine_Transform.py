@@ -8,7 +8,7 @@ def affine_transform(name = '0', use_init=True, resolution = '6', iter_number = 
 
     template=string.Template('''
     
-// Parameter File for B-Spline Registration
+// Parameter File for Affine Registration
 
 // Internal pixel type, "short" for saving memory
 // "float" if that is not required
